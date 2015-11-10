@@ -3,13 +3,13 @@ LIB = -larmadillo -lboost_system -lboost_iostreams
 CFLAGS = -c
 
 default: all
-	@./test
+	@./main
 
-all: test.o
-	@$(CC) test.o -o test $(LIB)
+all: main.o
+	@$(CC) main.o -o main $(LIB)
 
-test.o: test.cpp
-	@$(CC) $(CFLAGS) test.cpp
+main.o: main.cpp
+	@$(CC) $(CFLAGS) main.cpp
 
 clean:
-	rm *o test
+	rm *o main
