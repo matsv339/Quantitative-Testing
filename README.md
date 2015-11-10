@@ -1,7 +1,7 @@
 # Quantitative-Testing
 Testing of the frameworks
 
-** Libraries **
+**Libraries**
 * armadillo
 * boost
 * gnuplot-iostream
